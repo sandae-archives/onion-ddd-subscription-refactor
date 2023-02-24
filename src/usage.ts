@@ -1,7 +1,6 @@
 import "dotenv/config";
 import * as _ from "lodash";
 import { Plan } from "./models/plan";
-import { Subscription } from "./models/subscription";
 import { SubscriptionRepository } from "./repositories/subscriptionRepository";
 import { CallerSubscriptionService } from "./services/callerSubscriptionService";
 import { SubscriptionRefundService } from "./services/subscriptionRefundService";
