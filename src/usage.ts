@@ -12,6 +12,9 @@ import { SubscriptionRefundService } from "./services/subscriptionRefundService"
   const mailService: any = undefined;
   const smsService: any = undefined;
 
+  /**
+   * Services should be injected into the constructor not instantiated anywhere
+   */
   const service = new CallerSubscriptionService(
     subscriptionRepo,
     subscriptionRefundService,
